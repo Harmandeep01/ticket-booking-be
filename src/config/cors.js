@@ -2,7 +2,7 @@
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "ticket-booking-m7jcfj6jp-harmandeep01s-projects.vercel.app"
+  "https://ticket-booking-m7jcfj6jp-harmandeep01s-projects.vercel.app/"
 ];
 
 function corsOptions(req, callback) {
