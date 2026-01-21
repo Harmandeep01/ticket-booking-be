@@ -1,17 +1,7 @@
-const express = require('express');
+const router = require("express").Router();
 
-const authRoutes = require('./auth_routes');
-const eventRoutes = require('./event_routes');
-const bookingRoutes = require('./booking_routes');
-
-const router = express.Router();
-
-router.use('/auth', authRoutes);
-router.use('/events', eventRoutes);
-router.use('/bookings', bookingRoutes);
-
-router.get('/health', (req, res) => {
-  res.json({ status: 'OK' });
-});
+router.use("/auth", require("./auth_routes"));
+router.use("/events", require("./event_routes"));
+router.use("/bookings", require("./booking_routes"));
 
 module.exports = router;
