@@ -5,7 +5,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "*", // allow all origins
+    origin: "https://ticket-booking-m7jcfj6jp-harmandeep01s-projects.vercel.app", // allow all origins
   })
 );
 
