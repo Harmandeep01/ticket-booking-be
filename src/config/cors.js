@@ -2,7 +2,7 @@
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://your-frontend-app.onrender.com"
+  "https://ticket-booking-gb4gr29w0-harmandeep01s-projects.vercel.app"
 ];
 
 function corsOptions(req, callback) {
